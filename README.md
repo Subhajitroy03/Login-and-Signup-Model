@@ -4,9 +4,11 @@
 This project is a **Login and Signup Page** built with **Node.js**, **Express.js**, **MongoDB**, and **EJS**. It allows users to register, log in, and manage their accounts securely. The system uses a structured database schema to store user information and features like session management and flash messages to enhance the user experience.  
 
 ## Features  
-- **User Authentication**  
+- **User Authentication**
+- 
   - Signup: Create a new account with unique credentials.  
   - Login: Securely access an existing account.  
+
 
 - **Session Management**  
   - Maintain user state during interactions.  
@@ -16,6 +18,7 @@ This project is a **Login and Signup Page** built with **Node.js**, **Express.js
 
 - **Dynamic Rendering**  
   - Pages are rendered using EJS templates for a seamless experience.  
+
 
 ## Database Schema  
 The project uses MongoDB to store user details. Below is the schema:  
@@ -37,6 +40,7 @@ The project uses MongoDB to store user details. Below is the schema:
 - **Middleware**:  
   - `express-session` for session handling.  
   - `connect-flash` for flash messaging.  
+
 
 
 ## Prerequisites  
@@ -82,6 +86,3 @@ The project uses MongoDB to store user details. Below is the schema:
 - **Data Validation**:  
   Include robust client-side and server-side validation.  
 
-## Contact  
-For questions or feedback, feel free to reach out:  
-- **Email**: roysubhajit2003@gmail.com  
